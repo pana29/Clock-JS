@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: rgb(123, 55, 55);
+    text-align: center;
+    max-width: 500px;
+    padding: 1rem;
+    margin: auto;
+}
+
+.clock {
+    font-size: 4rem;
+}
+
+.day, .dayOfWeek {
+    font-size: 1.5rem;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
